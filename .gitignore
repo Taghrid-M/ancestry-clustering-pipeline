@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pipeline outputs (large; should not be committed)
+pipeline_run/
+output/
+*.traw
+*.vcf
+*.vcf.gz
+*.csv
+*.log
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
